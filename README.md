@@ -34,5 +34,3 @@ O objetivo deste projeto foi criar uma página estática inicial para meu portif
 -----------------------------------------------------------------------------
 
 > Projeto feito para fins de portfólio pessoal.
-
-* [ ]
