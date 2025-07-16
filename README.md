@@ -16,7 +16,7 @@ O objetivo deste projeto foi criar uma página estática inicial para meu portif
 
 ## 🚀 Acesse o site publicado:
 
-🔗 [Clique aqui para visualizar a Página](https://gabrielschug.github.io/pagina-web__Portifolio/)
+🔗 [Clique aqui para visualizar a Página](https://gabrielschug.netlify.app/)
 
 ---
 
