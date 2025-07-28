@@ -1,68 +1,68 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- <link rel="stylesheet" href="style.css" /> -->
-      <link href="./output.css" rel="stylesheet">
+      <link href="src/output.css" rel="stylesheet">
     <title>Gabriel Schug | Portifólio</title>
   </head>
-  <body>
-    <nav class="navegacao">
-      <ul class="menu">
-        <li><a href="#inicio" class="menu-link">Inicial</a></li>
-        <li><a href="#sobre" class="menu-link">Sobre Mim</a></li>
-        <li><a href="#projetos" class="menu-link">Projetos</a></li>
-        <li><a target="_blank" href="https://www.linkedin.com/in/gabrielschug/" class="menu-link">LinkedIn</a></li>
+  <body class="bg-escuro text-claro">
+    <nav class="navegacao fixed bg-azulescuro w-full z-100 p-2 md:p-6">
+      <ul class="menu flex gap-1 md:gap-3 justify-center">
+        <li><a href="#inicio" class="menu-link flex text-center  items-center text-sm md:text-lg font-medium relative p-1 md:p-2 transition duration-150 hover:text-white">Inicial</a></li>
+        <li><a href="#sobre" class="menu-link flex text-center  items-center text-sm md:text-lg font-medium relative p-1 md:p-2 transition duration-150 hover:text-white">Sobre Mim</a></li>
+        <li><a href="#projetos" class="menu-link flex text-center  items-center text-sm md:text-lg font-medium relative p-1 md:p-2 transition duration-150 hover:text-white">Projetos</a></li>
+        <li><a target="_blank" href="#rodape" class="menu-link flex text-center  items-center text-sm md:text-lg font-medium relative p-1 md:p-2 transition duration-150 hover:text-blue-200">Contato</a></li>
       </ul>
     </nav>
 
-    <main id="inicio" class="cabecalho">
+    <main id="inicio" class="cabecalho min-h-[100vh] flex justify-center items-center flex-col">
       <img
-        class="foto-perfil"
+        class="foto-perfil w-[250px] h-[250px] shadow-lg shadow-[rgba(224,173,111,0.3)] rounded-full border-4 border-solid border-vidro"
         src="img/perfil.jpg"
-        alt="Foto de Joaquim Duarte"
+        alt="Foto de Gabriel Schug"
       />
-      <h1>Gabriel Schug</h1>
-      <p class="cabecalho-subtitulo">Desenvolvedor Júnior em Formação<br>Foco em Back-End e Análise de Dados</p>
+      <h1 class="text-4xl md:text-6xl text-sky-500 font-bold m-5">Gabriel Schug</h1>
+      <p class="cabecalho-subtitulo text-base md:text-2xl text-claro text-center">Desenvolvedor Júnior em Formação<br>Foco em Back-End e Análise de Dados</p>
     </main>
 
-    <section id="sobre" class="sobre">
-      <h2 class="sobre-titulo"> Sobre Mim</Dados:></h2>
-      <div class="sobre-caixa">
-        <p class="sobre-paragrafo">
+    <section id="sobre" class="sobre md:px-24 md:py-8">
+      <h2 class="sobre-titulo text-2xl md:text-4xl text-claro text-center mb-4 md:mb-12"> Sobre Mim</Dados:></h2>
+      <div class="sobre-caixa md:p-8 p-4 max-w-[800px] m-2 md:m-[0_auto] rounded-2xl border-1 border-solid border-vidro mb-5 backdrop-blur-md bg-cinza">
+        <p class="sobre-paragrafo text-justify text-sm md:text-lg">
           Olá! Sou apaixonado por ferramentas que facilitam as rotinas empresariais e auxiliam na tomada de decisões. Tenho amplo conhecimento em <strong>Excel</strong>, <strong>Power Query</strong> e <strong>Power BI</strong> como ferramentas de <strong>Análise e Apoio à Decisão</strong>. Atualmente desenvolvo meu <strong>Conhecimento Lógico em Programação</strong> junto a apredizados práticos projetando um Aplicativo para <strong>Automação de Tarefas Admnistrativas</strong> (Google AppSheet/AppScript). Minhas especialidades focarão em <strong>Ciência de Dados</strong> e <strong>Programação Back-End</strong>. 
         </p>
       </div>
     </section>
 
-    <section id="projetos" class="projetos">
-      <h2 class="projetos-titulo">Meus Projetos</h2>
+    <section id="projetos" class="projetos md:px-24 md:py-8">
+      <h2 class="projetos-titulo text-2xl md:text-4xl text-claro text-center mb-4 md:mb-12">Meus Projetos</h2>
 
-      <div class="projetos-caixa">
-        <div class="projetos-card">
-          <img src="img/projeto1.jpg" alt="" class="card-imagem" />
-          <div class="projetos-card-texto">
-          <h3 class="card-info">Projeto 1</h3>
-          <p class="card-paragrafo">
+      <div class="projetos-caixa flex flex-col md:grid md:grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-8 max-w-[1200px] m-[0_auto]">
+        <div class="projetos-card m-2 bg-cinza_card rounded-2xl backdrop-blur-xs border-1 border-solid border-vidro overflow-hidden md:transition md:duration-500 md:ease-in-out cursor-pointer md:hover:shadow-[0_0_20px_rgba(224,173,111,0.3)] md:hover:transform md:hover:translate-y-[-10px] md:hover:scale-105">
+          <img src="img/projeto1.jpg" alt="" class="card-imagem h-[200px] w-full object-cover" />
+          <div class="projetos-card-texto p-2">
+          <h3 class="card-info mb-1">Projeto 1</h3>
+          <p class="card-paragrafo text-texto-card text-justify">
             [Em construção]</p>
         </div>
         </div>
 
-        <div class="projetos-card">
-          <img src="img/projeto2.jpg" alt="" class="card-imagem" />
-          <div class="projetos-card-texto">
-          <h3 class="card-info">Projeto 2</h3>
-          <p class="card-paragrafo">
+        <div class="projetos-card m-2 bg-cinza_card rounded-2xl backdrop-blur-xs border-1 border-solid border-vidro overflow-hidden md:transition md:duration-500 md:ease-in-out cursor-pointer md:hover:shadow-[0_0_20px_rgba(224,173,111,0.3)] md:hover:transform md:hover:translate-y-[-10px] md:hover:scale-105">
+          <img src="img/projeto2.jpg" alt="" class="card-imagem h-[200px] w-full object-cover" />
+          <div class="projetos-card-texto p-2">
+          <h3 class="card-info mb-1">Projeto 2</h3>
+          <p class="card-paragrafo text-texto-card text-justify">
             [Em construção]</p>
         </div>
         </div>
 
-        <div class="projetos-card">
-          <img src="img/projeto3.jpg" alt="" class="card-imagem" />
-              <div class="projetos-card-texto">
-              <h3 class="card-info">Projeto 3</h3>
-              <p class="card-paragrafo">
+        <div class="projetos-card m-2 bg-cinza_card rounded-2xl backdrop-blur-xs border-1 border-solid border-vidro overflow-hidden md:transition md:duration-500 md:ease-in-out cursor-pointer md:hover:shadow-[0_0_20px_rgba(224,173,111,0.3)] md:hover:transform md:hover:translate-y-[-10px] md:hover:scale-105">
+          <img src="img/projeto3.jpg" alt="" class="card-imagem h-[200px] w-full object-cover" />
+              <div class="projetos-card-texto p-2">
+              <h3 class="card-info mb-1">Projeto 3</h3>
+              <p class="card-paragrafo text-texto-card text-justify">
                 [Em construção]</p>
             </div>
           </div>
@@ -70,8 +70,12 @@
       </div>
     </section>
 
-    <footer>
-      <P class="rodape">site criado por mim mesmo ;)</P>
+    <footer class="mt-10 md:mt-20 mb-4">
+      <div class="contatos flex gap-3 justify-center items-center">
+        <a class="text-sm text-center items-center flex flex-col m-1 p-1" href="https://www.linkedin.com/in/gabrielschug/" target="_blank" rel="noopener noreferrer"><img class="h-12 " src="img/linkedin_icon.png" alt="incone do LinkedIn" srcset="">LinkedIn</a>
+        <a class="text-sm text-center items-center flex flex-col m-1 p-1" href="https://github.com/gabrielschug" target="_blank" rel="noopener noreferrer"><img class="h-12 flex" src="img/github_icon.png" alt="incone do GitHub" srcset="">GitHub</a>
+      </div>
+      <p id="rodape" class="rodape text-rodape text-sm text-end mr-2 p-1 md:mr-48">Gabriel Schug</p>
     </footer>
   </body>
 </html>

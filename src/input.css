@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@theme {
+  --color-primaria: #4f46e5;
+  --color-secundaria: #7c3aed;
+  --color-escuro: #100b16;
+  --color-maisescuro: #0a0f1c;
+  --color-claro: #e2e8f0;
+  --color-vidro: #rgba(255, 255, 255, 0.1);
+  --color-azulescuro: rgba(2, 15, 66, 0.8);
+  --color-cinza: rgba(163, 161, 172, 0.5);
+  --color-cinza_card: rgba(50, 49, 59, 0.5);
+  --color-texto-card: rgba(217, 204, 197, 0.8);
+  --color-rodape: #6c6c6f;
+}
