@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const projectsData = [
         {   title: "Réplica Spotify", 
-            subtitle: "Website replicando o Spotify, utilizando HTML, CSS e JavaScript. Deploy no GitHub Pages", 
+            subtitle: "Website replicando o Spotify, utilizando HTML5, CSS3 e JavaScript para interações. Realizei o deploy deste site no GitHub Pages", 
             image:"src/images/replica_spotify.png", 
             link:"https://github.com/gabrielschug/pagina-web__replica_spotify"},
         
@@ -10,10 +10,10 @@ document.addEventListener('DOMContentLoaded', () => {
             subtitle: "API REST de gerenciamento de pedidos desenvolvida em Node.js + Express. Projeto CRUD com middlewares e boas práticas de back-end.", 
             image:"src/images/api-pedidos.png", 
             link:"https://github.com/gabrielschug/api-pedidos"},
-        {   title: "Projeto deste Portfolio", 
-            subtitle: "API REST de gerenciamento de pedidos desenvolvida em Node.js + Express. Projeto CRUD com middlewares e boas práticas de back-end.", 
-            image:"src/images/api-pedidos.png", 
-            link:"https://github.com/gabrielschug/api-pedidos"}
+        {   title: "Projeto deste Portfólio", 
+            subtitle: "Aqui está o código que estruturei para criar este portfólio. Utilizo HTML5, Tailwind CSS e JavaScript. Fiz o deploy desta página com o Netlify", 
+            image:"src/images/imagem_portfólio.png", 
+            link:"https://github.com/gabrielschug/pagina-web__Portifolio"}
     ]
     
     const projectsGrid = document.querySelector('.projetos-caixa')
