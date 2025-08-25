@@ -1,0 +1,1 @@
+const projetos = {titulo: "Réplica Spotify"; image:""; link:""}
