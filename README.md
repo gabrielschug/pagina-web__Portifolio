@@ -24,6 +24,8 @@ O objetivo deste projeto foi criar uma página estática inicial para meu portif
 
 - HTML5
 - CSS3
+- Tailwind
+- JavaScript
 
 ---
 
